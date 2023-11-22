@@ -1,0 +1,14 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+ 
+.searchInput {
+    width: 500px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin-left: 100px;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+}

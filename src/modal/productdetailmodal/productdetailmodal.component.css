@@ -1,0 +1,45 @@
+mat-dialog-container {
+    background-color: white;
+}
+.custom-modalbox {
+    mat-dialog-container {
+        background-color: white !important;
+    }
+}
+    .col-md-6 {
+        width: 50%;
+        float: left;
+        min-height: 350px;
+    }
+.container {
+    padding: 24px;
+  }
+        img {
+            width: 100%;
+            height: 300px;
+            object-fit: scale-down;
+        }
+    .responsive-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 24px;
+    }
+  .mat-mdc-card {
+    --mdc-elevated-card-container-color: #ffffff !important;
+  }
+  .mat-mdc-card-content {
+    height: 80px !important;
+  }
+  .productDescription {
+    text-wrap:pretty;
+    text-align: center;
+    padding: 2%;
+  }
+  .mat-mdc-form-field{
+    width: 20%;
+    margin-left: 3%;
+    background-color: #ffffff;
+  }
+  .mdc-text-field--filled:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-floating-label, .mdc-text-field--filled:not(.mdc-text-field--disabled).mdc-text-field--focused .mdc-floating-label--float-above {
+    color: rgb(255 255 255 / 87%);
+}

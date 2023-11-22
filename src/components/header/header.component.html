@@ -1,0 +1,13 @@
+<mat-toolbar color="primary"> 
+    <span>Ecomerce Portal</span>
+    <!-- <app-productsearch></app-productsearch> -->
+    <form [formGroup]="searchForm">
+        <input placeholder="Search for a Product"type="text" formControlName="searchProduct" class="p-2 w-full rounded-lg searchInput" [value]="query">
+        </form>
+    <span class="example-spacer"></span>
+    <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button> -->
+    <app-shoppingcart></app-shoppingcart>
+
+</mat-toolbar>

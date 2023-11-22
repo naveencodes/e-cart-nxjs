@@ -1,0 +1,9 @@
+<!-- <p>posts works!</p> -->
+<!-- <div *ngIf="isloading">....loading</div> -->
+<!-- <h1>hi{{product| async}}</h1>
+<ul *ngFor="let products of product | async; let i = index">
+    <li>{{products.title}}
+    </li>
+</ul> -->
+<app-header (search)="addItem($event)"></app-header>
+<app-productpreview [productlist]="product" [searchterm]="searchterm"></app-productpreview>
